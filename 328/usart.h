@@ -4,6 +4,8 @@
  *  USART_send_BK();            //Отправка сигнала "Возврат каретки" (0x0D 0x0A)
  *  USART_send_string("Hello"); //Отправка строки Hello
  *  USART_send_integer(123);    //Отправка числа 0123 в виде ASCII-символов (макс. - 9999)
+ *  USART_send_long(12345);     //Отправка большого числа в виде ASCII-символов
+ *  USART_send_decimal(123, 1); //Отправка десятичной дроби 12,3 в виде ASCII-символов
 */
 
 #ifndef DUBOS-USART

@@ -33,7 +33,7 @@
 */
 
 #ifndef SDCARD
-#define SDCARD 1
+#define SDCARD
 
 #include "SPI.h"
 
