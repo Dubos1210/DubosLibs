@@ -24,24 +24,17 @@ DubosLibs
   ADC_read(ADC0); //Измерение сигнала на входе ADC0
   ```
   В качестве источника сигнала могут быть использованы:
-  
-  *ADC0* - PC0
-  
-  *ADC1* - PC1
-  
-  *ADC2* - PC2
-  
-  *ADC3* - PC3
-  
-  *ADC4* - PC4
-  
-  *ADC5* - PC5
-  
-  *ADC_TEMPERATURE* - встроенный термометр
-  
-  *ADC_REFERENCE* - источник опороного напряжения
-  
-  *ADC_GND* - просто 0
+  `
+  ADC0 - PC0  
+  ADC1 - PC1  
+  ADC2 - PC2  
+  ADC3 - PC3  
+  ADC4 - PC4  
+  ADC5 - PC5  
+  ADC_TEMPERATURE - встроенный термометр  
+  ADC_REFERENCE - источник опороного напряжения  
+  ADC_GND - просто 0
+  `
   	
   + __DS18B20.h__ - драйвер датчиков температуры от Dallas Semiconductor. 
   
